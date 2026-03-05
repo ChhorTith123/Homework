@@ -110,12 +110,12 @@ class BusinessAccount(BankAccount):
             print("Access denied.")
              
 
-Tith = BankAccount(name="Tith", balance=300, secret="2244")
+Tith = BankAccount(name="Tith", balance=500, secret="2244")
 
 
-Tith = StudentbankAccount(name="Tith", balance=300, secret="2244")
+Tith = StudentbankAccount(name="Tith", balance=500, secret="2244")
 Tith.withdraw()
 Tith.deposit()
 
-Tith = BusinessAccount(name="Tith", balance=300, secret="2244")
+Tith = BusinessAccount(name="Tith", balance=500, secret="2244")
 Tith.take_loan()
