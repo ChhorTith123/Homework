@@ -23,7 +23,6 @@ class BankAccount:
     def check_balance(self):
         print(f"Hello {self.name}. Your remaining balance is {self.balance}")
 
-    ####
     def transfer(self, receiver, amount):
         if amount > self.balance:
             print("You don't have enough balance to transfer")
@@ -31,8 +30,6 @@ class BankAccount:
         self.withdraw(amount)
         receiver.deposit(amount)
         print("Transfer successful")
-    ####
-
 
 class SavingAccount(BankAccount):
     def calculate_interest(self):
@@ -135,4 +132,5 @@ while True:
     elif choice == "7":
         current_user = None
         print("Logout success!")
+
 
