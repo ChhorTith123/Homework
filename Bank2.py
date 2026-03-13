@@ -18,7 +18,7 @@ class BankAccount:
     def deposit(self, amount):
         self.balance += amount
         print("Deposit Successfully!")
-        print(f"Your remaining balance is {self.balance}")
+        print(f"{self.name} remaining balance is {self.balance}")
 
     def check_balance(self):
         print(f"Hello {self.name}. Your remaining balance is {self.balance}")
@@ -135,3 +135,4 @@ while True:
     elif choice == "7":
         current_user = None
         print("Logout success!")
+
